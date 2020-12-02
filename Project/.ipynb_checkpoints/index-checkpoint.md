@@ -46,8 +46,6 @@ This was my first analysis, looking at the potential vorticity the day Hurricane
 Average precipitation for each month of the year. Precipitation increases during the summer and decreases during the winter over the tropical regions near the equator.
 
 ![Climatology](https://github.com/Jcampbell-8/CLIM-680/blob/master/Project/figs/CMAP%20Precip%20by%20Month%20Subplots%20-%20Land%20Slice.png)
-
-
 >[Anomalies](https://github.com/Jcampbell-8/CLIM-680/blob/master/Project/code%20notebooks/Project-Clim%26Anomalies.ipynb) 
 
 Precipitation anomalies shown for Panama City, Panama and my selected region (-10° to 70°,. Precipitation increases during the summer and decreases during the winter over the tropical regions near the equator. Regions of Central America show precipitation deficits for mid 1980s, and 2015-2018.
@@ -75,32 +73,26 @@ Loaded in ESPI index, took precip anomalies, the composites of the anomalies to 
 Loaded in both Nino34 and ESPI index. Calculated anomalies for ESPI and then plotted on same graph as Nino34. They correlated closely with a correlation coefficient of 0.778. The positive index values for ESPI trailed the positive highs of Nino34 but the negative index values stretch further negative by some ~50% than Nino34.
 
 ![Comparison](https://github.com/Jcampbell-8/CLIM-680/blob/master/Project/figs/Comparison-ESPI%2CENSO.png)
-
-
 >[Nino34 Correlation with Significance](https://github.com/Jcampbell-8/CLIM-680/blob/master/Project/code%20notebooks/Project-Correlation-Nino.ipynb) 
 
 Calculated anomalies for precipitation and then plotted on same graph as CMAP precipitation anomalies. Used a mask for p value of 0.05. Strong negative correlation for the equatorial Nino34 region and strong negative correlation southern Central America and Parts of South America. Also a little positive correlation cutting across the U.S.
 
 ![Nino34 Correlation](https://github.com/Jcampbell-8/CLIM-680/blob/master/Project/figs/Correlaton-ENSO%2CPrecip.png)
-
 >[ESPI Correlation with Significance](https://github.com/Jcampbell-8/CLIM-680/blob/master/Project/code%20notebooks/Project-Correlation-ESPI.ipynb) 
 
 Used ESPI index anomalies and plotted on same graph as CMAP precipitation anomalies. Used a mask for p value of 0.05. Strong positive correlation for the equatorial Nino34 region and strong negative correlation southern Central America and Parts of South America. Also a little positive correlation cutting across the U.S. Slightly different than Nino34 correlation but all the same trends are apparent.
 
 [ESPI Correlation](https://github.com/Jcampbell-8/CLIM-680/blob/master/Project/figs/Correlaton-ESPI%2CPrecip.png)
-
 >[Nino34 Regression](https://github.com/Jcampbell-8/CLIM-680/blob/master/Project/code%20notebooks/Project-Regression-Nino.ipynb) 
 
 Used Nino34 index anomalies and plotted on same graph as CMAP precipitation anomalies. Used reshape code to transform data to get m, r, and p values. Used another mask for p value of 0.05, but this time with m_array values. Similar trends as before - strong positive regression for the equatorial Nino34 region and strong negative regression southern Central America and Parts of South America. Although now there is slight negative regression over the US.
 
 ![Nino34 Regression](https://github.com/Jcampbell-8/CLIM-680/blob/master/Project/figs/Correlaton-ESPI%2CPrecip.png)
-
 >[Nino34 Regression](https://github.com/Jcampbell-8/CLIM-680/blob/master/Project/code%20notebooks/Project-Regression-ESPI.ipynb) 
 
 Used ESPI index anomalies and plotted on same graph as CMAP precipitation anomalies. Used reshape code to transform data to get m, r, and p values. Used another mask for p value of 0.05, but this time with m_array values. Similar trends as before - strong positive regression for the equatorial Nino34 region and strong negative regression southern Central America and Parts of South America. Although now there is slight negative regression over the US. Little difference to Nino34 regression map besides a bit stronger and more regression areas for the Nino34 comparison.
 
 ![ESPI Regression](https://github.com/Jcampbell-8/CLIM-680/blob/master/Project/figs/Regression-ESPI%2CPrecip.png)
-
 >[EOFS](https://github.com/Jcampbell-8/CLIM-680/blob/master/Project/code%20notebooks/Project-EOFs.ipynb) 
 
 Used CMAP precipitation anomalies. Subset to my region, verified no missing values, weighted, and reshaped. It's been a few years since I've taken statistics so I'm a little fuzzy on being able to fully explain my EOF calculations and PC plots.
