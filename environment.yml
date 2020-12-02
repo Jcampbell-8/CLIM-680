@@ -1,0 +1,23 @@
+name: clim680
+channels:
+  - conda-forge
+dependencies:
+  - python
+  - jupyterlab=1.2.5
+  - jupyter_client=5.3.1
+  - nbserverproxy
+  - netcdf4
+  - metpy
+  - numpy
+  - climpred
+  - cfgrib
+  - scipy
+  - xarray
+  - dask
+  - xskillscore
+  - cartopy
+  - matplotlib
+  - tqdm
+  - ipywidgets
+  - eofs 
+  - hvplot
