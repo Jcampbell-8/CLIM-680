@@ -14,8 +14,10 @@ The datasets used in my project are:
 
 __CMAP Precipitation__
 The [CMAP Precipitation](https://psl.noaa.gov/data/gridded/data.cmap.html) is a precipitation data set on a 2.5x2.5 lat/lon grid. It's in NetCDF format. Lat/lons are 88.75N - 88.75S, 1.25E - 358.75E. Data is monthly averaged per day in millimeters. My selected region is located on the COLA servers in /homes/jcampb8/data-shell/thesis/enso4_1979-2018.cmap.monthly.precip.mon.mean.nc . Dates are 1979/01 to 2020/10.
+
 __ENSO Index__
 The [NOAA/OISST](https://kpegion.github.io/COLA-DATASETS-CATALOG/sst.mnmean.nc) is a SST data set on a 1.0x1.0 lat/lon grid. It's in NetCDF format. Lat/lons are 89.5N - 89.5S, 0.5E - 359.5E. Data is monthly averaged per day in °C. My selected region is located on the COLA servers in /homes/jcampb8/data-shell/thesis/nino34_1979-2018.oissttv2.nc . Dates are 1981/12 to 2020/10.
+
 __ESPI Index__
 The [ESPI](https://cmr.earthdata.nasa.gov/search/concepts/C1214428057-SCIOPS.html) is a precipitation based climate indice that correlates to ENSO. It has no lat/lon data and is taken from rectangular area around the equator - N: 10.0 S: -10.0 E: 150.0 W: 90.0, N: 10.0 S: -10.0 E: -100.0 W: 160.0. Dates are 1979-01-01 to now.
 
@@ -45,7 +47,7 @@ This was my first analysis, looking at the potential vorticity the day Hurricane
 
 Average precipitation for each month of the year. Precipitation increases during the summer and decreases during the winter over the tropical regions near the equator.
 
-![Climatology](https://github.com/Jcampbell-8/CLIM-680/blob/master/Project/figs/CMAP%20Precip%20by%20Month%20Subplots%20-%20Land%20Slice.png)
+![Climatology](/Project/figs/CMAP Precip by Month Subplots - Land Slice.png)
 >[Anomalies](https://github.com/Jcampbell-8/CLIM-680/blob/master/Project/code%20notebooks/Project-Clim%26Anomalies.ipynb) 
 
 Precipitation anomalies shown for Panama City, Panama and my selected region (-10° to 70°,. Precipitation increases during the summer and decreases during the winter over the tropical regions near the equator. Regions of Central America show precipitation deficits for mid 1980s, and 2015-2018.
