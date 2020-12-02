@@ -45,26 +45,30 @@ This was my first analysis, looking at the potential vorticity the day Hurricane
 
 Average precipitation for each month of the year. Precipitation increases during the summer and decreases during the winter over the tropical regions near the equator.
 
+![Climatology](https://github.com/Jcampbell-8/CLIM-680/blob/master/Project/figs/CMAP%20Precip%20by%20Month%20Subplots%20-%20Land%20Slice.png)
+
 
 >[Anomalies](https://github.com/Jcampbell-8/CLIM-680/blob/master/Project/code%20notebooks/Project-Clim%26Anomalies.ipynb) 
 
 Precipitation anomalies shown for Panama City, Panama and my selected region (-10° to 70°,. Precipitation increases during the summer and decreases during the winter over the tropical regions near the equator. Regions of Central America show precipitation deficits for mid 1980s, and 2015-2018.
 
+![Anomalies](https://github.com/Jcampbell-8/CLIM-680/blob/master/Project/figs/PC1979-2019%20Precip%20Anomalies.png)
 
->[Nino34 Index](linkgoeshere) 
+>[Nino34 Index](https://github.com/Jcampbell-8/CLIM-680/blob/master/Project/code%20notebooks/Project-Subsetting-Nino34.ipynb) 
 
 Used groupby and subsetting to select Nino34 index for my region.
 
 
->[ESPI Index](linkgoeshere) 
+>[ESPI Index](https://github.com/Jcampbell-8/CLIM-680/blob/master/Project/code%20notebooks/Project-ConvertEspiToNETCDF.ipynb) 
 
-Manipulated the raw ESPI index to convert string characters to integers and then convert to netCDF file to manipulate easier. Note book for the conversion is->[ESPI Conversion](https://github.com/Jcampbell-8/CLIM-680/blob/master/Project/code%20notebooks/Project-ConvertEspiToNETCDF.ipynb)
+Manipulated the raw ESPI index to convert string characters to integers and then convert to netCDF file to manipulate easier.
 
 
 >[Composites with ESPI](https://github.com/Jcampbell-8/CLIM-680/blob/master/Project/code%20notebooks/Assignment3-Campbell.ipynb) 
 
 Loaded in ESPI index, took precip anomalies, the composites of the anomalies to produce three plots for ESPI-Positive, ESPI-Negative, and ESPI-Neutral. Not a lot of correlation in Western US but a lot in Central America near Panema. Negative composite precipitation during ESPI-Positive-Neutral and positive composite precipitation ESPI-Negative Neutral. Or, less rain during El Nino, more rain during La Nina. Significance hatching also shown.
 
+![ESPI Composites](https://github.com/Jcampbell-8/CLIM-680/blob/master/Project/figs/Composite%20ESPI%20plots.png)
 
 >[ESPI/Nino34 Comparison](https://github.com/Jcampbell-8/CLIM-680/blob/master/Project/code%20notebooks/Project-Nino%2CESPI%20comparison.ipynb) 
 
@@ -77,21 +81,25 @@ Loaded in both Nino34 and ESPI index. Calculated anomalies for ESPI and then plo
 
 Calculated anomalies for precipitation and then plotted on same graph as CMAP precipitation anomalies. Used a mask for p value of 0.05. Strong negative correlation for the equatorial Nino34 region and strong negative correlation southern Central America and Parts of South America. Also a little positive correlation cutting across the U.S.
 
+![Nino34 Correlation](https://github.com/Jcampbell-8/CLIM-680/blob/master/Project/figs/Correlaton-ENSO%2CPrecip.png)
 
 >[ESPI Correlation with Significance](https://github.com/Jcampbell-8/CLIM-680/blob/master/Project/code%20notebooks/Project-Correlation-ESPI.ipynb) 
 
 Used ESPI index anomalies and plotted on same graph as CMAP precipitation anomalies. Used a mask for p value of 0.05. Strong positive correlation for the equatorial Nino34 region and strong negative correlation southern Central America and Parts of South America. Also a little positive correlation cutting across the U.S. Slightly different than Nino34 correlation but all the same trends are apparent.
 
+[ESPI Correlation](https://github.com/Jcampbell-8/CLIM-680/blob/master/Project/figs/Correlaton-ESPI%2CPrecip.png)
 
 >[Nino34 Regression](https://github.com/Jcampbell-8/CLIM-680/blob/master/Project/code%20notebooks/Project-Regression-Nino.ipynb) 
 
 Used Nino34 index anomalies and plotted on same graph as CMAP precipitation anomalies. Used reshape code to transform data to get m, r, and p values. Used another mask for p value of 0.05, but this time with m_array values. Similar trends as before - strong positive regression for the equatorial Nino34 region and strong negative regression southern Central America and Parts of South America. Although now there is slight negative regression over the US.
 
+![Nino34 Regression](https://github.com/Jcampbell-8/CLIM-680/blob/master/Project/figs/Correlaton-ESPI%2CPrecip.png)
 
->[ESPI Regression](https://github.com/Jcampbell-8/CLIM-680/blob/master/Project/code%20notebooks/Project-Regression-ESPI.ipynb) 
+>[Nino34 Regression](https://github.com/Jcampbell-8/CLIM-680/blob/master/Project/code%20notebooks/Project-Regression-ESPI.ipynb) 
 
 Used ESPI index anomalies and plotted on same graph as CMAP precipitation anomalies. Used reshape code to transform data to get m, r, and p values. Used another mask for p value of 0.05, but this time with m_array values. Similar trends as before - strong positive regression for the equatorial Nino34 region and strong negative regression southern Central America and Parts of South America. Although now there is slight negative regression over the US. Little difference to Nino34 regression map besides a bit stronger and more regression areas for the Nino34 comparison.
 
+![ESPI Regression](https://github.com/Jcampbell-8/CLIM-680/blob/master/Project/figs/Regression-ESPI%2CPrecip.png)
 
 >[EOFS](https://github.com/Jcampbell-8/CLIM-680/blob/master/Project/code%20notebooks/Project-EOFs.ipynb) 
 
