@@ -47,7 +47,7 @@ This was my first analysis, looking at the potential vorticity the day Hurricane
 
 Average precipitation for each month of the year. Precipitation increases during the summer and decreases during the winter over the tropical regions near the equator.
 
-![Climatology](/Project/figs/CMAP Precip by Month Subplots - Land Slice.png)
+![Climatology](Project/figs/CMAP Precip by Month Subplots - Land Slice.png)
 >[Anomalies](https://github.com/Jcampbell-8/CLIM-680/blob/master/Project/code%20notebooks/Project-Clim%26Anomalies.ipynb) 
 
 Precipitation anomalies shown for Panama City, Panama and my selected region (-10° to 70°,. Precipitation increases during the summer and decreases during the winter over the tropical regions near the equator. Regions of Central America show precipitation deficits for mid 1980s, and 2015-2018.
