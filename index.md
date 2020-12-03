@@ -52,7 +52,7 @@ Added a .yml file to include the environment needed to run the code in my notebo
 
 >Precipitation anomalies shown for Panama City, Panama and my selected region (-10° to 70°,. Precipitation increases during the summer and decreases during the winter over the tropical regions near the equator. Regions of Central America show precipitation deficits for mid 1980s, and 2015-2018.
 >
->![Anomalies](https://github.com/Jcampbell-8/CLIM-680/blob/master/Project/figs/PC1979-2019%20Precip%20Anomalies.png)
+>![Anomalies](Project/figs/PC1979-2019 Precip Anomalies.png)
 
 [Nino34 Index](https://github.com/Jcampbell-8/CLIM-680/blob/master/Project/code%20notebooks/Project-Subsetting-Nino34.ipynb) 
 
@@ -86,7 +86,7 @@ Added a .yml file to include the environment needed to run the code in my notebo
 
 >Used ESPI index anomalies and plotted on same graph as CMAP precipitation anomalies. Used a mask for p value of 0.05. Strong positive correlation for the equatorial Nino34 region and strong negative correlation southern Central America and Parts of South America. Also a little positive correlation cutting across the U.S. Slightly different than Nino34 correlation but all the same trends are apparent.
 >
->[ESPI Correlation](Project/figs/Correlaton-ESPI,Precip.png)
+>![ESPI Correlation](Project/figs/Correlaton-ESPI,Precip.png)
 
 [Nino34 Regression](https://github.com/Jcampbell-8/CLIM-680/blob/master/Project/code%20notebooks/Project-Regression-Nino.ipynb) 
 
