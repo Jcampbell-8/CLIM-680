@@ -67,7 +67,7 @@ Added a .yml file to include the environment needed to run the code in my notebo
 
 [Composites with ESPI](https://github.com/Jcampbell-8/CLIM-680/blob/master/Project/code%20notebooks/Assignment3-Campbell.ipynb) 
 
->Loaded in ESPI index, took precip anomalies, the composites of the anomalies to produce three plots for ESPI-Positive, ESPI-Negative, and ESPI-Neutral. Not a lot of correlation in Western US but a lot in Central America near Panema. Negative composite precipitation during ESPI-Positive-Neutral and positive composite precipitation ESPI-Negative Neutral. Or, less rain during El Nino, more rain during La Nina. Significance hatching also shown.
+>Loaded in ESPI index, took precip anomalies, the composites of the anomalies to produce three plots for ESPI-Positive, ESPI-Negative, and ESPI-Neutral. Not a lot of correlation in Western US but a lot in Central America near Panema. Negative composite precipitation during ESPI-Positive-Neutral and positive composite precipitation ESPI-Negative Neutral. Or, less rain during El Nino, more rain during La Nina. Significance hatching also was shown.
 
 >![ESPI Composites](https://github.com/Jcampbell-8/CLIM-680/blob/master/Project/figs/Composite%20ESPI%20plots.png)
 
